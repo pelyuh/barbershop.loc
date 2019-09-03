@@ -13,16 +13,20 @@
             <a class="main-header-logo">
                 <img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершоп 'Бородинский'">
             </a>
-            <ul class="site-navigation">
-                <li><a href="info.html">Информация</a></li>
-                <li><a href="news.html">Новости</a></li>
-                <li><a href="price.html">Прайс-Лист</a></li>
-                <li><a href="catalog.html">Магазин</a></li>
-                <li><a href="contacts.html">Контакты</a></li>
-            </ul>
-            <ul class="user-navigation">
-                <li class="login-link">Вход</li>
-            </ul>
+            <div class="main-navigation-wrapper">
+                <div class="container">
+                    <ul class="site-navigation">
+                        <li><a href="info.html">Информация</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="price.html">Прайс-Лист</a></li>
+                        <li><a href="catalog.html">Магазин</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                    <ul class="user-navigation">
+                    <li class="login-link">Вход</li>
+                </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="container">
@@ -47,7 +51,7 @@
             </ul>
         </section>
 
-        <div class="index-colums">
+        <div class="index-columns">
             <section class="news">
                 <h2>Новости</h2>
                 <ul class="news-list">
@@ -73,7 +77,7 @@
             </section>
         </div>
 
-        <div class="index-colums">
+        <div class="index-columns">
             <section class="contacts">
                 <h2>Контактная информация</h2>
                 <p>Барбершоп «Бородинский»
@@ -86,7 +90,7 @@
                 <a class="button" href="contacts.html">Обратная связь</a>
             </section>
 
-            <section>
+            <section class="appointment">
                 <h2>Записаться</h2>
                 <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
                 <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
@@ -113,22 +117,24 @@
     </main>
 
     <footer class="main-footer">
-        <p class="footer-contacts">
-            Барбершоп «бородинский»
-            <br>адрес: г. санкт-петербург, ул. б. конюшенная, д. 19/8
-            <br><a href="map.html">как нас найти?</a>
-            <br>телефон: +7 (495) 666-02-66
-        </p>
-        <div class="footer-social">
-            <ul>
-                <li><a class="social-button" href="#">Вконтакте</a></li>
-                <li><a class="social-button" href="#">Фейсбук</a></li>
-                <li><a class="social-button" href="#">Инстаграм</a></li>
-            </ul>
-            <p class="footer-copyright">
-                <b>Разработано:</b>
-                <a class="button" href="#">Eva.inc</a>
+        <div class="container">
+            <p class="footer-contacts">
+                Барбершоп «бородинский»
+                <br>адрес: г. санкт-петербург, ул. б. конюшенная, д. 19/8
+                <br><a href="map.html">как нас найти?</a>
+                <br>телефон: +7 (495) 666-02-66
             </p>
+            <div class="footer-social">
+                <ul>
+                    <li><a class="social-button" href="#">Вконтакте</a></li>
+                    <li><a class="social-button" href="#">Фейсбук</a></li>
+                    <li><a class="social-button" href="#">Инстаграм</a></li>
+                </ul>
+            </div>
+            <p class="footer-copyright">
+            <b>Разработано:</b>
+            <a class="button" href="#">Eva.inc</a>
+        </p>
         </div>
     </footer>
 
